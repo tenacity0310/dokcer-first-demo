@@ -12,6 +12,6 @@ jobs:
     steps:
       - name: Send message to Telegram
         uses: appleboy/telegram-action@master 
-        env:
-          TELEGRAM_TOKEN: ${{ secrets.BOT_TOKEN }}
-          TELEGRAM_CHAT: ${{ secrets.CHAT_ID }}
+        with:
+          to: ${{ secrets.TELEGRAM_TO }}
+          token: ${{ secrets.TELEGRAM_TOKEN }}
