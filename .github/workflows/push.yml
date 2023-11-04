@@ -15,7 +15,7 @@ jobs:
       - name: Send message to Telegram
         uses: appleboy/telegram-action@master
         with:
-          to: ${{ secrets.CHAT_ID }}
-          token: ${{ secrets.BOT_TOKEN }}
+          to: -1002071486798
+          token: 6792277313:AAFl3dYy_YfHQyrSJgL652ZioGxNDLCIOhA
           message: "Hello, this is a test message from GitHub Actions."
 
