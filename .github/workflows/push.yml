@@ -15,7 +15,7 @@ jobs:
       - name: Send message to Telegram
         uses: appleboy/telegram-action@master
         with:
-          to: -1002071486798
+          to: 6403212406
           token: 6792277313:AAFl3dYy_YfHQyrSJgL652ZioGxNDLCIOhA
           message: "Hello, this is a test message from GitHub Actions."
 
