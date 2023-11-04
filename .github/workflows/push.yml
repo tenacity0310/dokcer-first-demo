@@ -16,6 +16,6 @@ jobs:
         uses: appleboy/telegram-action@master
         with:
           to: -1002008082378
-          token: 6792277313:AAFl3dYy_YfHQyrSJgL652ZioGxNDLCIOhA
+          token: 6403212406:AAGx9-KiO0kYFSTz0rcwkNXhdbyREr3jq2w
           message: "Hello, this is a test message from GitHub Actions."
 
