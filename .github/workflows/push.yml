@@ -1,7 +1,10 @@
-name: CI
+name: Notifier
 
 on:
   push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
   success:
