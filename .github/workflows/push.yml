@@ -11,7 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Send message to Telegram
-        uses: actions/checkout@v2  
+        uses: appleboy/telegram-action@master 
         env:
           TELEGRAM_TOKEN: ${{ secrets.BOT_TOKEN }}
           TELEGRAM_CHAT: ${{ secrets.CHAT_ID }}
